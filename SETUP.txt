@@ -1,0 +1,7 @@
+pip install mysqlclient
+// launch Apache and MySQL
+// create todolist database on localhost/phpmyadmin
+python manage.py migrate
+// si il y a des soucis avec l'installation par pip, installer via anaconda
+// activer la variable tensorflow (cf. doc installation tensorflow)
+python manage.py runserver
