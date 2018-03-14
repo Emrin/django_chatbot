@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'todolist.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'todolist',
+        'NAME': 'chat',
         'USER':'root',
         'PASSWORD':'',
         'HOST':'', #default is localhost

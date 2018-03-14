@@ -24,7 +24,7 @@ from .ChatbotSolutecMaster.code_chatbot import response
 def add(request):
     if(request.method == 'POST'):
         title = request.POST['title']
-        text = response(request.POST['text'], '123', False)
+        text = response(request.POST['title'], '123', False)
 
         todo = Todo(title=title, text=text)
         todo.save()
